@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh; /* Full screen height */
+        }
+        .left, .center, .right {
+            padding: 20px;
+        }
+        .left {
+            background-color: #f1f1f1;
+            width: 20%;
+            box-sizing: border-box;
+        }
+        .center {
+            background-color: #ffffff;
+            width: 60%;
+            box-sizing: border-box;
+        }
+        .right {
+            background-color: #f9f9f9;
+            width: 20%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Section for Navigation or Content -->
+        <div class="left">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
+
+        <!-- Center Section for Main Content -->
+        <div class="center">
+            <h1>Main Content</h1>
+            <p>This is the main area of the page where the body content will be displayed.</p>
+        </div>
+
+        <!-- Right Section for Remarks -->
+        <div class="right">
+            <h3>Remarks</h3>
+            <p>This section can contain remarks or additional information relevant to the main content.</p>
+        </div>
+    </div>
+
+</body>
+</html>
