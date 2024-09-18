@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart Grocery Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            color: #333;
+        }
+
+        .product p {
+            color: #777;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Welcome to Shakthi Mart Grocery Store</h1>
+        <p>Your one-stop shop for fresh product and groceries.</p>
+    </header>
+
+     
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="home">
+        <h2>Fresh and Healthy Grocery Items</h2>
+        <p>We provide the freshest fruits, vegetables, and daily groceries delivered to your doorstep.</p>
+    </section>
+
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="./1.jpeg" alt="Fruits">
+                <h3>Fresh Fruits</h3>
+                <p>A wide variety of seasonal and exotic fruits available daily.</p>
+            </div>
+            <div class="product">
+                <img src="./2.jpeg" alt="Rice and cerelas">
+                <h3>Organic Vegetables</h3>
+                <p>Locally sourced vegetables to keep you healthy and fit.</p>
+            </div>
+            <div class="product">
+                <img src="./3.jpeg" alt="Groceries">
+                <h3>Dairy Products</h3>
+                <p>Fresh milk, cheese, and other dairy products from trusted farms.</p>
+            </div>
+        </div>
+    </section>
+
+     <section id="about">
+        <h2>About Us</h2>
+        <p>At FreshMart, we believe in providing the best quality groceries to our customers. Our products are carefully selected from trusted farmers and suppliers.</p>
+    </section>
+
+     <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For orders or inquiries, please call us at 6379710109 or email us at contact@freshmart.com.</p>
+    </section>
+
+     <footer>
+        <p>FreshMart Grocery Store &copy; 2024 | Designed by sakthi</p>
+    </footer>
+
+</body>
+</html>
